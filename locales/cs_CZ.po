@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Walid Nouh, 2018
+# David Stepan <stepand@tiscali.cz>, 2018
+# Pavel Borecki <pavel.borecki@gmail.com>, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-26 15:42+0200\n"
+"PO-Revision-Date: 2018-01-05 08:43+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2018\n"
+"Language-Team: Czech (Czech Republic) (https://www.transifex.com/ddurieux/teams/797/cs_CZ/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+#: inc/networkequipment.class.php:15
+msgid "GLPI Agent SNMP"
+msgstr "GLPI Agent SNMP"
+
+#: inc/networkequipment.class.php:49
+msgid "SNMP information"
+msgstr "SNMP informace"
+
+#: inc/networkequipment.class.php:55
+msgid "CPU usage (in %)"
+msgstr "Vytížení procesoru (v %)"
+
+#: inc/networkequipment.class.php:65
+msgid "Memory usage (in %)"
+msgstr "Využití operační paměti (v %)"
+
+#: inc/networkequipment.class.php:76
+msgid "No data available"
+msgstr "Nejsou k dispozici žádná data"

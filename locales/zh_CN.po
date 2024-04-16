@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# CyanVesper <SharpNight93@gmail.com>, 2018
+# 南 孔, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# fhuang1984 <168546@163.com>, 2019
+# LI guan <tinging@msn.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-26 15:42+0200\n"
+"PO-Revision-Date: 2018-01-05 08:43+0000\n"
+"Last-Translator: LI guan <tinging@msn.com>, 2020\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/ddurieux/teams/797/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: inc/networkequipment.class.php:15
+msgid "GLPI Agent SNMP"
+msgstr "聚合资产盘点 SNMP"
+
+#: inc/networkequipment.class.php:49
+msgid "SNMP information"
+msgstr "SNMP 信息"
+
+#: inc/networkequipment.class.php:55
+msgid "CPU usage (in %)"
+msgstr "CPU 使用率 (百分比格式 %)"
+
+#: inc/networkequipment.class.php:65
+msgid "Memory usage (in %)"
+msgstr "内存使用率 (百分比格式 %)"
+
+#: inc/networkequipment.class.php:76
+msgid "No data available"
+msgstr "无可用数据"

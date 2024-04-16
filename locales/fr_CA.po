@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Tiago Graca, 2018
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-26 15:42+0200\n"
+"PO-Revision-Date: 2018-01-05 08:43+0000\n"
+"Last-Translator: Tiago Graca, 2018\n"
+"Language-Team: French (Canada) (https://www.transifex.com/ddurieux/teams/797/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: inc/networkequipment.class.php:15
+msgid "GLPI Agent SNMP"
+msgstr "GLPI Agent SNMP"
+
+#: inc/networkequipment.class.php:49
+msgid "SNMP information"
+msgstr "Informations SNMP"
+
+#: inc/networkequipment.class.php:55
+msgid "CPU usage (in %)"
+msgstr "Utilisation du CPU (en %)"
+
+#: inc/networkequipment.class.php:65
+msgid "Memory usage (in %)"
+msgstr "Utilisation de la mémoire (en %)"
+
+#: inc/networkequipment.class.php:76
+msgid "No data available"
+msgstr "Aucune donnée disponible"

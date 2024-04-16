@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-16T21:09:49+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: swcpuram\n"
+
+#: inc/networkequipment.class.php:15
+msgid "GLPI Agent SNMP"
+msgstr ""
+
+#: inc/networkequipment.class.php:49
+msgid "SNMP information"
+msgstr ""
+
+#: inc/networkequipment.class.php:55
+msgid "CPU usage (in %)"
+msgstr ""
+
+#: inc/networkequipment.class.php:65
+msgid "Memory usage (in %)"
+msgstr ""
+
+#: inc/networkequipment.class.php:76
+msgid "No data available"
+msgstr ""
