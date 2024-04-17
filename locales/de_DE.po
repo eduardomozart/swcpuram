@@ -1,25 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR NetHouse Informática Development Team
+# This file is distributed under the same license as the GLPI - swcpuram plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Walid Nouh, 2018
-# Sascha Sengpiel <sascha.sengpiell@proit-solutions.de>, 2018
-# Thomas Wolf <mail@thomaswolf.eu>, 2018
-# Eric Schindler <eric.schindler@klinikumfrankfurt.de>, 2018
-# sbeneke <sbeneke@gmail.com>, 2018
-# Stephan <stephan.rennert@web.de>, 2019
+# Eduardo Mozart de Oliveira <eduardomozart182@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: GLPI - swcpuram plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-26 15:42+0200\n"
-"PO-Revision-Date: 2018-01-05 08:43+0000\n"
-"Last-Translator: Stephan <stephan.rennert@web.de>, 2019\n"
-"Language-Team: German (Germany) (https://www.transifex.com/ddurieux/teams/797/de_DE/)\n"
+"POT-Creation-Date: 2024-04-17 09:32-0300\n"
+"PO-Revision-Date: 2024-04-17 12:56+0000\n"
+"Last-Translator: Eduardo Mozart de Oliveira <eduardomozart182@gmail.com>, 2024\n"
+"Language-Team: German (Germany) (https://app.transifex.com/nethouseinf/teams/191069/de_DE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
