@@ -77,7 +77,7 @@ class PluginSwcpuramNetworkEquipment extends CommonDBTM {
         } else {
             Html::displayProgressBar(250, $ram_pourcentage,
                            ['title' => " <strong>(".($item->getField('ram') - $item->getField('memory')).__('Mio')." / ".
-                           $item->getField('ram').__('Mio').")</strong>"]);
+                           $item->getField('ram').__('Mio').") ".$ram_pourcentage."% </strong>"]);
         }
       
       echo "</td>";
