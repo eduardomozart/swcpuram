@@ -16,5 +16,5 @@ You can improve CPU/memory parsing by applying the following patches to GLPI Age
 ## Additional resources
 
 * [Official website](https://github.com/eduardomozart/swcpuram)
-* [Translations on transifex service](https://www.transifex.com/eduardomozart/swcpuram/content/)
+* [Translations on Transifex service](https://www.transifex.com/eduardomozart/swcpuram/content/)
 * [Issues](https://github.com/eduardomozart/swcpuram/issues)
