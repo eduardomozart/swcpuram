@@ -3,7 +3,7 @@ name: Create release with tag
 on:
     push:
       # Sequence of patterns matched against refs/tags
-      tags:
+      branches:
       - '*.*.*' # Push events to matching ex:20.15.10
 
 env:
