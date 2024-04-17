@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <name>Cmdb</name>
+    <key>swcpuram</key>
+    <state>stable</state>
+    <logo>https://raw.githubusercontent.com/eduardomozart/swcpuram/master/screenshots/service.png</logo>
+    <description>
+        <short>
+            <en><![CDATA[Restores the tab "SNMP" tab to display "CPU usage (in %)" and "Memory usage (in %)" for Network devices using GLPI Agent (ported from FusionInventory).]]></en>
+            <pt><![CDATA[Restaura a guia "SNMP" para exibir "Uso de CPU (em %)" e "Uso de memória (em %)" para Dispositivos de rede usando o GLPI Agent (portado do FusionInventory).]]></pt>
+        </short>
+        <long>
+            <en><![CDATA[Restores the tab "SNMP" tab to display "CPU usage (in %)" and "Memory usage (in %)" for Network devices using GLPI Agent (ported from FusionInventory).]]></en>
+            <pt><![CDATA[Restaura a guia "SNMP" para exibir "Uso de CPU (em %)" e "Uso de memória (em %)" para Dispositivos de rede usando o GLPI Agent (portado do FusionInventory).]]></pt>
+        </long>
+    </description>
+    <homepage>https://github.com/eduardomozart/swcpuram</homepage>
+    <download>https://github.com/eduardomozart/swcpuram/releases</download>
+    <issues>https://github.com/eduardomozart/swcpuram/issues</issues>
+    <!-- <readme>https://github.com/eduardomozart/swcpuram/wiki</readme> -->
+    <authors>
+        <author>Eduardo Mozart de Oliveira</author>
+        <!-- <author>Infotel</author> -->
+    </authors>
+    <versions>
+        <version>
+            <num>1.0.0</num>
+            <compatibility>~10.0</compatibility>
+            <download_url>https://github.com/eduardomozart/swcpuram/releases/download/1.0.0/glpi-swcpuram-1.0.0.zip</download_url>
+        </version>
+    </versions>
+    <langs>
+        <lang>en_US</lang>
+        <lang>pt_BR</lang>
+    </langs>
+    <license><![CDATA[GPL v2+]]></license>
+    <tags>
+        <fr>
+            <tag>Análise</tag>
+            <tag>Impacto</tag>
+            <tag>Inventário</tag>
+        </fr>
+        <en>
+            <tag>Analyze</tag>
+            <tag>Impact</tag>
+            <tag>Inventory</tag>
+        </en>
+    </tags>
+</root>

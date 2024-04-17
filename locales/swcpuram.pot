@@ -1,16 +1,21 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR NetHouse Informática Development Team
+# This file is distributed under the same license as the GLPI - swcpuram plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: GLPI - swcpuram plugin\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-17 09:32-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-04-16T21:09:49+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.10.0\n"
-"X-Domain: swcpuram\n"
 
 #: inc/networkequipment.class.php:15
 msgid "GLPI Agent SNMP"

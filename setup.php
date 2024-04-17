@@ -34,7 +34,7 @@ function plugin_version_swcpuram() {
       'homepage'       => 'http://github.com/eduardomozart/swcpuram',
       'requirements'   => [
          'glpi'   => [
-            'min' => '10.0.13'
+            'min' => '10.0.0'
          ]
       ]
    ];
