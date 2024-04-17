@@ -9,9 +9,9 @@ Restores the tab "SNMP" tab to display "**CPU usage (in %)**" and "**Memory usag
 
 ## GLPI Agent modules
 
-You can improve CPU/memory parsing by applying the following patches to GLPI Agent:
+By default, this plug-in only provides "**CPU usage (in %)**". You can enhance GLPI Agent to parse "**Memory usage (%)**" as this plug-in re-introduces a legacy (discontinued) parameter (``MEMORY``) to store RAM usage data:
 
-  * [#649](https://github.com/glpi-project/glpi-agent/pull/649): Cisco Switches.
+  * [Additional GLPI Agent modules](https://github.com/eduardomozart/ScriptUtil/tree/master/Scripts/GLPI/Agent/SNMP).
 
 ## ToDo
 
@@ -22,8 +22,6 @@ Create a custom table for the plug-in and uses it to store CPU and RAM usage his
 You can help funding this plug-in through donations:
 
 [![Donate with PayPal](pics/paypal-donate-button.png)](https://www.paypal.com/donate/?business=X67223DNZCKW2&no_recurring=1)
-
-[![Show CPU-Memory Network Device Usage](https://nowpayments.io/images/embeds/donation-button-black.svg)](https://www.paypal.com/donate/?business=X67223DNZCKW2&no_recurring=1)
 
 ## Building
 

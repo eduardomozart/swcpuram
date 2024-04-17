@@ -66,18 +66,21 @@ class PluginSwcpuramNetworkEquipment extends CommonDBTM {
       echo '</td>';
       echo '<td align="center">';
       
-        $ram_pourcentage = 0;
+        /* $ram_pourcentage = 0;
         if (!empty($item->getField('ram'))
             && !empty($item->getField('memory'))) {
             $ram_pourcentage = abs(ceil((100 * ($item->getField('memory') - $item->getField('ram'))) / $item->getField('ram')));
         }
         if ((($item->getField('ram') - $item->getField('memory')) < 0)
-            || (empty($item->getField('memory')))) {
+            || (empty($item->getField('memory')))) { */
+        if (empty($item->getField('memory'))) {
             echo "<center><strong>".__('No data available', 'swcpuram')."</strong></center>";
         } else {
-            Html::displayProgressBar(250, $ram_pourcentage,
+           /* Html::displayProgressBar(250, $ram_pourcentage,
                            ['title' => " <strong>(".($item->getField('ram') - $item->getField('memory')).__('Mio')." / ".
-                           $item->getField('ram').__('Mio').") ".$ram_pourcentage."% </strong>"]);
+                           $item->getField('ram').__('Mio').") ".$ram_pourcentage."% </strong>"]); */
+           Html::displayProgressBar(250, $item->getField('memory'),
+                              ['simple' => true]);
         }
       
       echo "</td>";
