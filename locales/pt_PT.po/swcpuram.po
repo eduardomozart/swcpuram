@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR NetHouse Informática Development Team
+# This file is distributed under the same license as the GLPI - swcpuram plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Eduardo Mozart de Oliveira <eduardomozart182@gmail.com>, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI - swcpuram plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-17 09:32-0300\n"
+"PO-Revision-Date: 2024-04-17 12:56+0000\n"
+"Last-Translator: Eduardo Mozart de Oliveira <eduardomozart182@gmail.com>, 2024\n"
+"Language-Team: Portuguese (Portugal) (https://app.transifex.com/nethouseinf/teams/191069/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: inc/networkequipment.class.php:15
+msgid "GLPI Agent SNMP"
+msgstr "SNMP do GLPI Agent"
+
+#: inc/networkequipment.class.php:49
+msgid "SNMP information"
+msgstr "Informação SNMP"
+
+#: inc/networkequipment.class.php:55
+msgid "CPU usage (in %)"
+msgstr "Uso de CPU (em %)"
+
+#: inc/networkequipment.class.php:65
+msgid "Memory usage (in %)"
+msgstr "Uso de memória (em %)"
+
+#: inc/networkequipment.class.php:76
+msgid "No data available"
+msgstr "Sem dados disponíveis"
