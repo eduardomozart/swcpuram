@@ -36,7 +36,7 @@ jobs:
                       GLPI ${{ steps.build_.outputs.version_glpi }} : Version ${{ steps.build_.outputs.tag }} disponible / available
             body : Version ${{ steps.build_.outputs.tag }} released for GLPI ${{ steps.build_.outputs.version_glpi }}
             draft: false
-            prerelease: true
+            prerelease: false
         - name: Upload Release Asset
           id: upload-release-asset 
           uses: actions/upload-release-asset@v1
