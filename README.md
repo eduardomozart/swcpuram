@@ -1,7 +1,7 @@
 ## Show CPU-Memory Network Device Usage
 ![GitHub downloads](https://img.shields.io/github/downloads/eduardomozart/swcpuram/total.svg)
 
-Restores the tab "SNMP" tab to display "**CPU usage (in %)**" and "**Memory usage (in %)**" for Network devices using GLPI Agent (ported from FusionInventory)
+Restores the tab "SNMP" tab to display "**CPU usage (in %)**" and "**Memory usage (in %)**" for Network devices using GLPI Agent (ported from FusionInventory).
 
 ## Screenshot
 
