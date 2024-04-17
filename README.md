@@ -13,6 +13,18 @@ You can improve CPU/memory parsing by applying the following patches to GLPI Age
 
   * [#649](https://github.com/glpi-project/glpi-agent/pull/649): Cisco Switches.
 
+## ToDo
+
+Create a custom table for the plug-in and uses it to store CPU and RAM usage historical data through a trigger on ``glpi_networkequipments`` GLPI DB table and plot them on a graph (similar to Network port metric statistics) with Zoom in/Zoom out support and/or allows to set up auto data purge period.
+
+## Donate
+
+You can help funding this plug-in through donations:
+
+[![Donate with PayPal](pics/paypal-donate-button.png)](https://www.paypal.com/donate/?business=X67223DNZCKW2&no_recurring=1)
+
+[![Show CPU-Memory Network Device Usage](https://nowpayments.io/images/embeds/donation-button-black.svg)](https://www.paypal.com/donate/?business=X67223DNZCKW2&no_recurring=1)
+
 ## Building
 
 To create a new release of this plugin automatically through GitHub Actions (Workflow), edit the file ``swcpuram.xml`` to include the new version tag (e.g. ``1.0.1``), GLPI compatbile version and download URL and create a new branch.
