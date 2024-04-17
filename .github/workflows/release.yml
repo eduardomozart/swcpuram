@@ -31,9 +31,9 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           with:
-            tag_name: ${{ github.ref.name }}
+            tag_name: ${{ steps.build_.outputs.tag }}
             release_name: | 
-                      GLPI ${{ steps.build_.outputs.version_glpi }} : Version ${{ github.ref }} disponible / available
+                      GLPI ${{ steps.build_.outputs.version_glpi }} : Version ${{ steps.build_.outputs.tag }} disponible / available
             body : Version ${{ steps.build_.outputs.tag }} released for GLPI ${{ steps.build_.outputs.version_glpi }}
             draft: false
             prerelease: true
