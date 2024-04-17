@@ -5,7 +5,7 @@ Restores the tab "SNMP" tab to display "CPU usage (in %)" and "Memory usage (in 
 
 ## Screenshot
 
-[Show CPU-Memory Network Device Usage](screenshots/swcpuram.png)
+![Show CPU-Memory Network Device Usage](screenshots/swcpuram.png)
 
 ## GLPI Agent modules
 
