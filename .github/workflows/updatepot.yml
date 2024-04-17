@@ -11,7 +11,7 @@ jobs:
   run:
     
     name: Update POT
-      
+    permissions: write-all
     runs-on: ubuntu-latest
     steps: 
     - name: Checkout repo
