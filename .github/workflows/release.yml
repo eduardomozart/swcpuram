@@ -1,14 +1,15 @@
+name: Create release with tag
 
 on:
     push:
       # Sequence of patterns matched against refs/tags
       tags:
       - '*.*.*' # Push events to matching ex:20.15.10
-  
-  name: Create release with tag
-  env:
+
+env:
     TAG_VALUE: ${GITHUB_REF/refs\/tags\//}
-  jobs:
+
+jobs:
     build:
       name: Upload Release Asset
       runs-on: ubuntu-latest
