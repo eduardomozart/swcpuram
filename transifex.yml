@@ -2,7 +2,6 @@ git:
   filters:
     - filter_type: dir
       file_format: PO
-      source_file_dir: locales/
-      source_file_extension: pot
+      source_file: locales/swcpuram.pot
       source_language: en
       translation_files_expression: locales/<lang>.po
