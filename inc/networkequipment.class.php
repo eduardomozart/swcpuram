@@ -55,8 +55,12 @@ class PluginSwcpuramNetworkEquipment extends CommonDBTM {
       echo __('CPU usage (in %)', 'swcpuram');
       echo '</td>';
       echo '<td>';
-      Html::displayProgressBar(250, $item->getField('cpu'),
+      if (empty($item->getField('cpu'))) {
+         echo "<center><strong>".__('No data available', 'swcpuram')."</strong></center>";
+      } else {
+         Html::displayProgressBar(250, $item->getField('cpu'),
                               ['simple' => true]);
+      }
       echo '</td>';
       echo '</tr>';
         
@@ -73,7 +77,8 @@ class PluginSwcpuramNetworkEquipment extends CommonDBTM {
         }
         if ((($item->getField('ram') - $item->getField('memory')) < 0)
             || (empty($item->getField('memory')))) { */
-        if (empty($item->getField('memory'))) {
+        if (($item->getField('memory') > 100)
+            || empty($item->getField('memory'))) {
             echo "<center><strong>".__('No data available', 'swcpuram')."</strong></center>";
         } else {
            /* Html::displayProgressBar(250, $ram_pourcentage,
