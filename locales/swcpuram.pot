@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GLPI - swcpuram plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-17 17:11+0000\n"
+"POT-Creation-Date: 2024-04-18 17:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,10 +29,10 @@ msgstr ""
 msgid "CPU usage (in %)"
 msgstr ""
 
-#: inc/networkequipment.class.php:65
-msgid "Memory usage (in %)"
+#: inc/networkequipment.class.php:59 inc/networkequipment.class.php:82
+msgid "No data available"
 msgstr ""
 
-#: inc/networkequipment.class.php:76
-msgid "No data available"
+#: inc/networkequipment.class.php:69
+msgid "Memory usage (in %)"
 msgstr ""
