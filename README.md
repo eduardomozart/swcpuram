@@ -27,6 +27,10 @@ You can help funding this plug-in through donations:
 
 To create a new release of this plugin automatically through GitHub Actions (Workflow), edit the file ``swcpuram.xml`` to include the new version tag (e.g. ``1.0.1``), GLPI compatbile version and download URL and create a new branch.
 
+## Known issues
+
+  * During the GLPI upgrade, the message that the GLPI database does not match the GLPI schema may appear because this plugin changes the ``glpi_networkequipments`` table structure to re-add the ``memory` column.
+
 ## Additional resources
 
 * [Official website](https://github.com/eduardomozart/swcpuram)
