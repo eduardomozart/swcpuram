@@ -25,7 +25,7 @@ You can help funding this plug-in through donations:
 
 ## Building
 
-To create a new release of this plugin automatically through GitHub Actions (Workflow), edit the file ``swcpuram.xml`` to include the new version tag (e.g. ``1.0.1``), GLPI compatbile version and download URL and create a new branch.
+To create a new release of this plugin automatically through GitHub Actions (Workflow), edit the file ``swcpuram.xml`` to include the new version tag (e.g. ``1.0.1``), GLPI compatible version and download URL and create a new branch.
 
 ## Known issues
 
